@@ -8,10 +8,10 @@
 
 public class War
 {
-   private Deck deck;
+   private Deck deck;   //creats a new deck/new piles for the players
    private Deck [] p1pile;
    private Deck [] p2pile;
-   private int deckSize1 = 26, deckSize2 = 26;
+   private int deckSize1 = 26, deckSize2 = 26;   
    
    public War();    //creats new deck and assigns piles to players
    {
