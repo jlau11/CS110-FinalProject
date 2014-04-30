@@ -35,13 +35,13 @@ public class Deck
 
    public ArrayList pile1()
    {
-      ArrayList pile1 = new ArrayList(deck.subList(0,25));
+      ArrayList pile1 = new ArrayList(deck.subList(0,25));   //pile1 is the first 26 items in the array 
       return pile1;
    }
 
    public ArrayList pile2()
    {
-      ArrayList pile2 = new ArrayList(deck.subList(26,51));
+      ArrayList pile2 = new ArrayList(deck.subList(26,51));  //pile2 is the last 26 items in the array
       return pile2;
    }
    
